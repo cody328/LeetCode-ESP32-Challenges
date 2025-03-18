@@ -3,6 +3,11 @@
 ### 🔍 **About the Project**
 This repository focuses on solving popular **LeetCode challenges** using the **ESP32 microcontroller** platform. The aim is to bridge the gap between algorithmic problem-solving and embedded system development. By leveraging the ESP32's hardware and software capabilities, we not only solve coding problems but also implement practical applications in real-world embedded environments.
 
+The project bridges theoretical algorithm design with real-world embedded applications by leveraging the ESP32's hardware capabilities. It provides:
+- **Superior Code Quality**: Highly efficient solutions tailored for the ESP32 platform.
+- **Embedded System Integration**: Practical use cases for coding challenges in real-time environments.
+- **Performance and Precision**: Solutions optimized to achieve best-in-class benchmarks across all problem solvers.
+
 ---
 
 ### 📂 **Repository Structure**
