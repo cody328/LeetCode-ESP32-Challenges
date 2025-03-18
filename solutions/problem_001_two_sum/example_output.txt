@@ -1,0 +1,47 @@
+I (27) boot: ESP-IDF v5.3.1-dirty 2nd stage bootloader
+I (27) boot: compile time Mar 18 2025 08:01:32
+I (27) boot: Multicore bootloader
+I (30) boot: chip revision: v0.2
+I (34) boot.esp32s3: Boot SPI Speed : 80MHz
+I (39) boot.esp32s3: SPI Mode       : DIO
+I (44) boot.esp32s3: SPI Flash Size : 2MB
+I (48) boot: Enabling RNG early entropy source...
+I (54) boot: Partition Table:
+I (57) boot: ## Label            Usage          Type ST Offset   Length
+I (65) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+I (72) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+I (80) boot:  2 factory          factory app      00 00 00010000 00100000
+I (87) boot: End of partition table
+I (91) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0a338h ( 41784) map
+I (107) esp_image: segment 1: paddr=0001a360 vaddr=3fc92200 size=02a44h ( 10820) load
+I (110) esp_image: segment 2: paddr=0001cdac vaddr=40374000 size=0326ch ( 12908) load
+I (120) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=178fch ( 96508) map
+I (142) esp_image: segment 4: paddr=00037924 vaddr=4037726c size=0af50h ( 44880) load
+I (158) boot: Loaded app from partition at offset 0x10000
+I (158) boot: Disabling RNG early entropy source...
+I (170) cpu_start: Multicore app
+I (180) cpu_start: Pro cpu start user code
+I (180) cpu_start: cpu freq: 160000000 Hz
+I (180) app_init: Application information:
+I (183) app_init: Project name:     two-sum
+I (188) app_init: App version:      1
+I (192) app_init: Compile time:     Mar 18 2025 08:00:06
+I (198) app_init: ELF file SHA256:  f13733160...
+I (203) app_init: ESP-IDF:          v5.3.1-dirty
+I (209) efuse_init: Min chip rev:     v0.0
+I (213) efuse_init: Max chip rev:     v0.99 
+I (218) efuse_init: Chip rev:         v0.2
+I (223) heap_init: Initializing. RAM available for dynamic allocation:
+I (231) heap_init: At 3FC954F8 len 00054218 (336 KiB): RAM
+I (237) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM
+I (243) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM
+I (249) heap_init: At 600FE100 len 00001EE8 (7 KiB): RTCRAM
+I (256) spi_flash: detected chip: generic
+I (260) spi_flash: flash io: dio
+W (264) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.
+I (277) sleep: Configure to isolate all GPIO pins in sleep state
+I (284) sleep: Enable automatic switching of GPIO sleep configuration
+I (291) main_task: Started on CPU0
+I (311) main_task: Calling app_main()
+Indices: [0, 1]
+I (311) main_task: Returned from app_main()
