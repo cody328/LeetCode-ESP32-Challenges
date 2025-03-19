@@ -1,0 +1,10 @@
+I (277) sleep: Configure to isolate all GPIO pins in sleep state
+I (284) sleep: Enable automatic switching of GPIO sleep configuration
+I (291) main_task: Started on CPU0
+I (311) main_task: Calling app_main()
+isPalindrome(121) = true
+isPalindrome(-121) = false
+isPalindrome(10) = false
+isPalindrome(12321) = true
+isPalindrome(0) = true
+I (321) main_task: Returned from app_main()
