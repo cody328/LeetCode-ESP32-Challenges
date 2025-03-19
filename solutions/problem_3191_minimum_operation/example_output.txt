@@ -1,0 +1,7 @@
+I (277) sleep: Configure to isolate all GPIO pins in sleep state
+I (284) sleep: Enable automatic switching of GPIO sleep configuration
+I (291) main_task: Started on CPU0
+I (311) main_task: Calling app_main()
+Test Case 1: Output = 3 (Expected: 3)
+Test Case 2: Output = -1 (Expected: -1)
+I (311) main_task: Returned from app_main()
