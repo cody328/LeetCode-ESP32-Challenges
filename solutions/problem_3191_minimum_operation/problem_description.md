@@ -1,10 +1,5 @@
 # 3191. Minimum Operations to Make Binary Array Elements Equal to One I
 
-**Status:** Solved  
-**Difficulty:** Medium  
-**Topics:** Array, Simulation, Greedy  
-**Acceptance:** (Not provided)
-
 ---
 
 ## Problem Statement
