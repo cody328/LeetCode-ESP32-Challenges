@@ -1,0 +1,15 @@
+I (277) sleep: Configure to isolate all GPIO pins in sleep state
+I (284) sleep: Enable automatic switching of GPIO sleep configuration
+I (291) main_task: Started on CPU0
+I (311) main_task: Calling app_main()
+Case 1 PASSED: [7, 0, 8]
+./main/task_watchdog_example_main.c:371:test_AddTwoNumbers_Case1:PASS
+Case 2 PASSED: [0]
+./main/task_watchdog_example_main.c:372:test_AddTwoNumbers_Case2:PASS
+Case 3 PASSED: [8, 9, 9, 9, 0, 0, 0, 1]
+./main/task_watchdog_example_main.c:373:test_AddTwoNumbers_Case3:PASS
+
+-----------------------
+3 Tests 0 Failures 0 Ignored
+OK
+I (351) main_task: Returned from app_main()
