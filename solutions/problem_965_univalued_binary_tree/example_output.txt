@@ -1,0 +1,9 @@
+I (291) main_task: Started on CPU0
+I (311) main_task: Calling app_main()
+./main/main.c:87:test_unival_tree_true:PASS
+./main/main.c:88:test_unival_tree_false:PASS
+
+-----------------------
+2 Tests 0 Failures 0 Ignored 
+OK
+I (331) main_task: Returned from app_main()
