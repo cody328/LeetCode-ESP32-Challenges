@@ -39,11 +39,20 @@ int lengthOfLongestSubstring(char* s) {
 
 int app_main() {
     // Test cases
-    printf("Example 1: %d\n", lengthOfLongestSubstring("abcabcbb")); // Expected: 3
-    printf("Example 2: %d\n", lengthOfLongestSubstring("bbbbb"));    // Expected: 1
-    printf("Example 3: %d\n", lengthOfLongestSubstring("pwwkew"));   // Expected: 3
-    printf("Edge case 1: %d\n", lengthOfLongestSubstring(""));       // Expected: 0
-    printf("Edge case 2: %d\n", lengthOfLongestSubstring("a"));      // Expected: 1
+    printf("Example 1:\nInput: \"abcabcbb\"\nExpected output: 3\nActual output: %d\n\n",
+        lengthOfLongestSubstring("abcabcbb"));
+ 
+    printf("Example 2:\nInput: \"bbbbb\"\nExpected output: 1\nActual output: %d\n\n",
+            lengthOfLongestSubstring("bbbbb"));
+    
+    printf("Example 3:\nInput: \"pwwkew\"\nExpected output: 3\nActual output: %d\n\n",
+            lengthOfLongestSubstring("pwwkew"));
+    
+    printf("Edge case 1:\nInput: \"\"\nExpected output: 0\nActual output: %d\n\n",
+            lengthOfLongestSubstring(""));
+    
+    printf("Edge case 2:\nInput: \"a\"\nExpected output: 1\nActual output: %d\n\n",
+            lengthOfLongestSubstring("a"));
     
     return 0;
 }
